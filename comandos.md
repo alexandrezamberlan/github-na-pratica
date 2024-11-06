@@ -32,3 +32,15 @@
 
     <!-- para enviar as alterações locais ao servidor github na branch ativa -->
     git push
+
+## depois de realizado o pull request e o proprietario do main ter aceitado, deletar branch
+
+    <!-- trocar para o main -->
+    git checkout main
+
+    <!-- deletar branch com pull request aceito -->
+    git branch -d nome-da-branch
+
+## para atualizar localmente as alterações do servidor github
+
+    git pull
