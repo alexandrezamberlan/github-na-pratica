@@ -26,5 +26,9 @@
     <!-- para criar um 'envelope de envio' com dados de quem esta fazendo o envio -->
     git commit -m "texto explicativo do que esta indo para o github"
 
+    Atenção!! Na primeira vez, o git instalado na máquina vai precisar autorizar
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+
     <!-- para enviar as alterações locais ao servidor github na branch ativa -->
     git push
